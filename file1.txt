@@ -4,3 +4,6 @@ Day 4 - File creation and folder creation
 Day 4 - Basic commands of ubantu operating system
 new data 
 
+Gitam - hyderabad
+Git sessions to sync the data to Git repositoty
+
