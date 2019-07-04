@@ -1,0 +1,235 @@
+sys58@sys58-OptiPlex-3020:~$ cd Desktop
+sys58@sys58-OptiPlex-3020:~/Desktop$ cd problemsolvingandprogramming
+sys58@sys58-OptiPlex-3020:~/Desktop/problemsolvingandprogramming$ cd Git
+sys58@sys58-OptiPlex-3020:~/Desktop/problemsolvingandprogramming/Git$ git statusOn branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	file1.txt
+	file1.txt.save
+
+nothing added to commit but untracked files present (use "git add" to track)
+sys58@sys58-OptiPlex-3020:~/Desktop/problemsolvingandprogramming/Git$ cd .git
+sys58@sys58-OptiPlex-3020:~/Desktop/problemsolvingandprogramming/Git/.git$ ls
+branches  config  description  HEAD  hooks  info  objects  refs
+sys58@sys58-OptiPlex-3020:~/Desktop/problemsolvingandprogramming/Git/.git$ ls -a.  ..  branches  config  description  HEAD  hooks  info  objects  refs
+sys58@sys58-OptiPlex-3020:~/Desktop/problemsolvingandprogramming/Git/.git$ cd Git
+bash: cd: Git: No such file or directory
+sys58@sys58-OptiPlex-3020:~/Desktop/problemsolvingandprogramming/Git/.git$ cd
+sys58@sys58-OptiPlex-3020:~$ cd Desktop
+sys58@sys58-OptiPlex-3020:~/Desktop$ cd problemsolvingandprogramming
+sys58@sys58-OptiPlex-3020:~/Desktop/problemsolvingandprogramming$ cd Git
+sys58@sys58-OptiPlex-3020:~/Desktop/problemsolvingandprogramming/Git$ git commit -m 'initial commit'
+On branch master
+
+Initial commit
+
+Untracked files:
+	file1.txt
+	file1.txt.save
+
+nothing added to commit but untracked files present
+sys58@sys58-OptiPlex-3020:~/Desktop/problemsolvingandprogramming/Git$ git statusOn branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	file1.txt
+	file1.txt.save
+
+nothing added to commit but untracked files present (use "git add" to track)
+sys58@sys58-OptiPlex-3020:~/Desktop/problemsolvingandprogramming/Git$ git commit-m'initial commit'
+git: 'commit-minitial commit' is not a git command. See 'git --help'.
+sys58@sys58-OptiPlex-3020:~/Desktop/problemsolvingandprogramming/Git$ git commit-m 'initial commit'
+git: 'commit-m' is not a git command. See 'git --help'.
+
+Did you mean this?
+	commit-tree
+sys58@sys58-OptiPlex-3020:~/Desktop/problemsolvingandprogramming/Git$ git commit -m 'initial commit'
+On branch master
+
+Initial commit
+
+Untracked files:
+	file1.txt
+	file1.txt.save
+
+nothing added to commit but untracked files present
+sys58@sys58-OptiPlex-3020:~/Desktop/problemsolvingandprogramming/Git$ git commit -m 'Initial Commit'
+On branch master
+
+Initial commit
+
+Untracked files:
+	file1.txt
+	file1.txt.save
+
+nothing added to commit but untracked files present
+sys58@sys58-OptiPlex-3020:~/Desktop/problemsolvingandprogramming/Git$ git commit -m 'Initial commit'
+On branch master
+
+Initial commit
+
+Untracked files:
+	file1.txt
+	file1.txt.save
+
+nothing added to commit but untracked files present
+sys58@sys58-OptiPlex-3020:~/Desktop/problemsolvingandprogramming/Git$ git commit-m 'Initial commit'
+git: 'commit-m' is not a git command. See 'git --help'.
+
+Did you mean this?
+	commit-tree
+sys58@sys58-OptiPlex-3020:~/Desktop/problemsolvingandprogramming/Git$ git add file1.txt
+sys58@sys58-OptiPlex-3020:~/Desktop/problemsolvingandprogramming/Git$ git statusOn branch master
+
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+	new file:   file1.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	file1.txt.save
+
+sys58@sys58-OptiPlex-3020:~/Desktop/problemsolvingandprogramming/Git$ git commit -m 'Initial commit'
+[master (root-commit) 91b822e] Initial commit
+ 1 file changed, 6 insertions(+)
+ create mode 100644 file1.txt
+sys58@sys58-OptiPlex-3020:~/Desktop/problemsolvingandprogramming/Git$ git add file1.txt.save
+sys58@sys58-OptiPlex-3020:~/Desktop/problemsolvingandprogramming/Git$ git statusOn branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	new file:   file1.txt.save
+
+sys58@sys58-OptiPlex-3020:~/Desktop/problemsolvingandprogramming/Git$ nano file1.txt
+sys58@sys58-OptiPlex-3020:~/Desktop/problemsolvingandprogramming/Git$ cat file1.txt
+Day 4 - Git downloads and installation
+Day 4 - Github Push and Pull Operations
+Day 4 - File creation and folder creation
+Day 4 - Basic commands of ubantu operating system
+new data 
+
+Gitam - hyderabad
+Git sessions to sync the data to Git repositoty
+
+sys58@sys58-OptiPlex-3020:~/Desktop/problemsolvingandprogramming/Git$ Git statusNo command 'Git' found, did you mean:
+ Command 'nit' from package 'python-nevow' (universe)
+ Command 'vit' from package 'vit' (universe)
+ Command 'wit' from package 'wit' (universe)
+ Command 'git' from package 'git' (main)
+Git: command not found
+sys58@sys58-OptiPlex-3020:~/Desktop/problemsolvingandprogramming/Git$ git statusOn branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	new file:   file1.txt.save
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   file1.txt
+
+sys58@sys58-OptiPlex-3020:~/Desktop/problemsolvingandprogramming/Git$ git commit -m 'Second commit'
+[master 4dff9c3] Second commit
+ 1 file changed, 6 insertions(+)
+ create mode 100644 file1.txt.save
+sys58@sys58-OptiPlex-3020:~/Desktop/problemsolvingandprogramming/Git$ git statusOn branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   file1.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+sys58@sys58-OptiPlex-3020:~/Desktop/problemsolvingandprogramming/Git$ git add file1.txt
+sys58@sys58-OptiPlex-3020:~/Desktop/problemsolvingandprogramming/Git$ git commit -m 'Second commit'
+[master 9ec3c34] Second commit
+ 1 file changed, 3 insertions(+)
+sys58@sys58-OptiPlex-3020:~/Desktop/problemsolvingandprogramming/Git$ git statusOn branch master
+nothing to commit, working directory clean
+sys58@sys58-OptiPlex-3020:~/Desktop/problemsolvingandprogramming/Git$ git log
+commit 9ec3c344b1f6c5ed6c3f2731d2611ba5654be32c
+Author: zameer <muqsithzameer20@gmail.com>
+Date:   Thu Jul 4 12:40:59 2019 +0530
+
+    Second commit
+
+commit 4dff9c365d1504d2a77949c8cb2c1b21c69cba4a
+Author: zameer <muqsithzameer20@gmail.com>
+Date:   Thu Jul 4 12:39:44 2019 +0530
+
+    Second commit
+
+commit 91b822eed106d6973cabf4970713a33258c58282
+Author: zameer <muqsithzameer20@gmail.com>
+Date:   Thu Jul 4 12:32:38 2019 +0530
+
+    Initial commit
+sys58@sys58-OptiPlex-3020:~/Desktop/problemsolvingandprogramming/Git$ mkdir arsenal
+sys58@sys58-OptiPlex-3020:~/Desktop/problemsolvingandprogramming/Git$ git remote help
+error: Unknown subcommand: help
+usage: git remote [-v | --verbose]
+   or: git remote add [-t <branch>] [-m <master>] [-f] [--tags | --no-tags] [--mirror=<fetch|push>] <name> <url>
+   or: git remote rename <old> <new>
+   or: git remote remove <name>
+   or: git remote set-head <name> (-a | --auto | -d | --delete | <branch>)
+   or: git remote [-v | --verbose] show [-n] <name>
+   or: git remote prune [-n | --dry-run] <name>
+   or: git remote [-v | --verbose] update [-p | --prune] [(<group> | <remote>)...]
+   or: git remote set-branches [--add] <name> <branch>...
+   or: git remote get-url [--push] [--all] <name>
+   or: git remote set-url [--push] <name> <newurl> [<oldurl>]
+   or: git remote set-url --add <name> <newurl>
+   or: git remote set-url --delete <name> <url>
+
+    -v, --verbose         be verbose; must be placed before a subcommand
+
+sys58@sys58-OptiPlex-3020:~/Desktop/problemsolvingandprogramming/Git$ git remote --origin
+error: unknown option `origin'
+usage: git remote [-v | --verbose]
+   or: git remote add [-t <branch>] [-m <master>] [-f] [--tags | --no-tags] [--mirror=<fetch|push>] <name> <url>
+   or: git remote rename <old> <new>
+   or: git remote remove <name>
+   or: git remote set-head <name> (-a | --auto | -d | --delete | <branch>)
+   or: git remote [-v | --verbose] show [-n] <name>
+   or: git remote prune [-n | --dry-run] <name>
+   or: git remote [-v | --verbose] update [-p | --prune] [(<group> | <remote>)...]
+   or: git remote set-branches [--add] <name> <branch>...
+   or: git remote get-url [--push] [--all] <name>
+   or: git remote set-url [--push] <name> <newurl> [<oldurl>]
+   or: git remote set-url --add <name> <newurl>
+   or: git remote set-url --delete <name> <url>
+
+    -v, --verbose         be verbose; must be placed before a subcommand
+
+sys58@sys58-OptiPlex-3020:~/Desktop/problemsolvingandprogramming/Git$ git add arsenal
+sys58@sys58-OptiPlex-3020:~/Desktop/problemsolvingandprogramming/Git$ git statusOn branch master
+nothing to commit, working directory clean
+sys58@sys58-OptiPlex-3020:~/Desktop/problemsolvingandprogramming/Git$ git remotesys58@sys58-OptiPlex-3020:~/Desktop/problemsolvingandprogramming/Git$ git remote show
+sys58@sys58-OptiPlex-3020:~/Desktop/problemsolvingandprogramming/Git$ git remote add https://github.com/erite20/arsenal
+usage: git remote add [<options>] <name> <url>
+
+    -f, --fetch           fetch the remote branches
+    --tags                import all tags and associated objects when fetching
+                          or do not fetch any tag at all (--no-tags)
+    -t, --track <branch>  branch(es) to track
+    -m, --master <branch>
+                          master branch
+    --mirror[=<push|fetch>]
+                          set up remote as a mirror to push to or fetch from
+
+sys58@sys58-OptiPlex-3020:~/Desktop/problemsolvingandprogramming/Git$ git remote show
+sys58@sys58-OptiPlex-3020:~/Desktop/problemsolvingandprogramming/Git$ git remote -v
+sys58@sys58-OptiPlex-3020:~/Desktop/problemsolvingandprogramming/Git$ 
+
